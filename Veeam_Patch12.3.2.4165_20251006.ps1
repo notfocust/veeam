@@ -61,7 +61,7 @@ if ($Confirmation -ieq "Y") {
     try {
         Start-Process -FilePath $InstallerPath -ArgumentList $InstallArgsString -WindowStyle Hidden
         Write-Host "======================================================================"
-        Write-Host "✅ INSTALLATION INITIATED." -ForegroundColor Green
+        Write-Host "INSTALLATION INITIATED." -ForegroundColor Green
         Write-Host "The silent patch process is now running. Script finished."
         Write-Host "======================================================================"
     } catch {
